@@ -1,7 +1,6 @@
 # OPENING--AND-CLOSING
 ## Aim
 To implement Opening and Closing using Python and OpenCV.
-
 ## Software Required
 1. Anaconda - Python 3.7
 2. OpenCV
@@ -17,14 +16,12 @@ Use Opening operation
 ### Step5:
 Use Closing Operation
 ## Program and Output:
-
 ### Import the necessary packages
 ```python
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 ```
-
 ### Read and display the original image
 ```p
 image = cv2.imread("fp.jpg")
@@ -40,7 +37,6 @@ plt.axis("off")
 ```p
 kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
 ```
-
 ### Use Opening operation
 ```p
 opening_image = cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)
