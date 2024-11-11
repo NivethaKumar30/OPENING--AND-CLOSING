@@ -47,7 +47,6 @@ plt.title("Opening Operation")
 plt.axis("off")
 ```
 ![image](https://github.com/user-attachments/assets/c7f91102-61c3-4976-8c38-c1d97fcdb86d)
-
 ### Use Closing Operation
 ```p
 closing_image = cv2.morphologyEx(image, cv2.MORPH_CLOSE, kernel)
@@ -58,6 +57,5 @@ plt.title("Closing Operation")
 plt.axis("off")
 ```
 ![image](https://github.com/user-attachments/assets/03cb10a8-05ce-4955-b8ec-b32ce74f25b4)
-
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
